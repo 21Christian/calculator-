@@ -3,8 +3,12 @@ using namespace std;
 
 
 void calculator(){
+    
+    // needed variables
     char myoperator;
     double num1, num2;
+    
+    // user input 
     cout<< "Enter first number: ";
     cin >> num1;
     cout<<"Enter operator (+, -, /, *): ";
@@ -13,6 +17,7 @@ void calculator(){
     cin >> num2;
     double result;
     
+    // operations 
     if(myoperator == '+'){
         result = num1 + num2;
     } else if (myoperator == '-'){
@@ -30,7 +35,7 @@ void calculator(){
 
 
 
-
+//main function 
 int main()
 {   
     calculator();
